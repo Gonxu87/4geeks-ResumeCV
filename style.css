@@ -3,18 +3,21 @@ body {
 }
 
 .main {
-    background: lightblue;
+    background: steelblue;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .header{
-    background: lightblue;
+    background: steelblue;
     text-align: left;
-    padding: 8px;
+    padding: 20px;
+    color: white;
 }
 
 .flex {
     display: flex;
     flex-wrap: wrap;
+    margin: auto;
 }
 
 .left-side{
@@ -22,10 +25,11 @@ body {
     flex: 30%;
     padding: 20px;
     max-width: 900px;
+    color: steelblue
 }
 
-h2.under-line{
-    border-bottom: 5px solid grey;
+h2{
+    border-bottom: 5px solid steelblue;
     border-radius: 5px;
 }
 
@@ -34,4 +38,6 @@ h2.under-line{
     flex: 70%;
     padding: 20px;
     max-width: 600px;
+    color: steelblue
 }
+
